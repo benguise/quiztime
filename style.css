@@ -1,116 +1,40 @@
-.outerContainer{
-    background-color: rgb(190, 171, 171);
-    height: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 20px;
-    width: 65%;
-    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-header {
-    font-family: Permanent Marker;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%
-} 
+<!DOCTYPE html>
+<html>
 
-.questions{
-    position: fixed;
-    width: 40%;
-    height: 20%;
-    margin-left: 250px;
-    margin-top: 20px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 12px;
-    background-color: blueviolet;
-    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+<head>
+    <title>Example Project Structure</title>
+    <link rel="stylesheet" href="containerStyles.css">
+</head>
+<header>
+    <h1>Quiz Time!</h1>
+</header>
 
-    .animatedObject{
-    position: fixed;
-    width: 30%;
-    height: 40%;
-    margin-left: 500px;
-    margin-top: 275px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 12px;
-    background-color: royalblue;
-    box-shadow: 0 8px 16px 5px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
+<body>
+    <div class="outerContainer">
+        <div class="questions">
+            <h2></h2>
 
-h2{
-    position: relative;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-.buttonTop{
-    position: absolute;
-    margin-left:40px;
-    margin-top:100px;
-    width: 150px;
-    height: 100px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 7px;
-    font-size: 30px; 
-    background-color: gold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.buttonMiddleTop{
-    position: absolute;
-    margin-left:40px;
-    margin-top:250px;
-    width: 150px;
-    height: 100px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 7px;
-    font-size: 30px; 
-    background-color: gold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.buttonMiddleBottom{
-    position: absolute;
-    margin-left:40px;
-    margin-top:400px;
-    width: 150px;
-    height: 100px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 7px;
-    font-size: 30px; 
-    background-color: gold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.buttonSubmit{
-    position: absolute;
-    margin-left:40px;
-    margin-top:550px;
-    width: 150px;
-    height: 100px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 7px;
-    font-size: 30px; 
-    background-color: gold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.buttonReset{
-    position: absolute;
-    margin-left:250px;
-    margin-top:550px;
-    width: 150px;
-    height: 100px;
-    border-style: ridge;
-    border-color: #5b342e;
-    border-width: 7px;
-    font-size: 30px; 
-    background-color: gold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+        </div>
+        <div class="animatedObject">
+            <h2></h2>
+        </div>
+        <div>
+            <button id = "one" class="buttonTop" type="button"></button>
+        </div>
+        <div>
+            <button id = "two" class="buttonMiddleTop" type="button"></button>
+        </div>
+        <div>
+            <button id = "three" class="buttonMiddleBottom" type="button"></button>
+        </div>
+        <div>
+            <button id = "four" class="buttonSubmit" type="button"></button>
+        </div>
+        <div>
+            <button id = "five" class="buttonReset" type="button"></button>
+        </div>
+
+    </div>
+</body>
+
+</html>
